@@ -1,0 +1,192 @@
+@media screen and (max-width:980px){/* När skärmer blir mindre än 980 gäller nedanstående*/
+#header-container{
+	display:none;
+}
+#front-content{
+	display:none;
+}
+#header2-container{
+	position:fixed;
+	height:68px;
+	top:0px;	
+}
+#header2-content{
+	opacity:1;
+}
+#footinfo {
+	display:block;
+	width:calc(100% - 30px);
+	max-width:300px;
+	padding:30px 15px 15px 15px;
+	text-align:center;
+	float:none;
+	margin:auto;
+}
+.link-a{
+	width:304px;
+	margin:auto;
+}
+.link-img{
+	margin-left:0;
+    margin-right: auto;
+	display:block;	
+}
+.link-container{
+	width:auto;
+	float:none;
+}
+.p-info-content{
+	width:calc(100% - 40px);
+	max-width:466px;
+	min-width:375px;
+	padding:5px;
+    height:160px;	
+}
+.kontakt-img{
+	height:150px;
+}
+.kontakt-namn{
+	margin:10px;
+	margin-bottom:0;
+}
+.kontakt-p1{
+	margin:10px;
+	margin-bottom:0;
+	line-height:0;
+}
+.kontakt-p2{
+	margin:10px;
+	margin-bottom:0;
+	font-size:14px;
+	line-height:15px;
+}
+
+#slideshow-container{
+	height:350px;
+	margin-top:68px;
+	position:relative;
+}
+#front-container{
+	display:none;
+}
+
+#introdukion-img-show{
+	height:350px;
+}
+#introduktion-img{	
+	top:68px;
+}
+
+#page-after-slideshow{
+	height:auto;
+	width:100%;
+	position:relative;
+}
+.fadeInBlock{
+	opacity:1;
+}
+#header2-container{
+	position:fixed;
+	background-color:white;
+}
+#header2-ul{
+	display:none;
+}
+#nyheter-container h2{
+	top:20px;
+}
+.nyheter-box-container{
+	width:100%;
+}
+.nyheter-box-content{
+	width:100%;
+	max-width:420px;
+	margin:auto;
+}
+#nyheter-btn{
+	bottom: 5px;
+}
+#projekt-container h2{
+	top:20px;
+}
+#storbild{
+	background-size: auto 100%;
+}
+#storbild:hover{
+	opacity :1;
+	background-size: auto 110%;
+}
+.projekt-boxL-container{
+	width:100%;
+}
+.projekt-box-content{
+	width:100%;
+	max-width:420px;
+	margin:auto;
+}
+#projekt-btn{
+	bottom: 5px;
+}
+
+/* Ny block stylas */
+#menu-btn{
+	height:68px;
+	width:50px;
+	background-color:transparent;
+	outline:0;
+	border:0;
+	cursor: pointer;
+	float:right;
+	display:block;
+}
+#menu-icon{
+	display:block;
+}
+#mobile-menu-container{
+	display:none;
+}
+#mobile-menu-container.toggled{
+	display:block;
+}
+#mobile-ul{
+	position:fixed;
+	top:68px;
+	width:100%;
+	list-style-type: none;
+	z-index: 1000000000000000;
+}
+
+.mobile-li{
+	height:auto;
+	width:100%;
+	border-bottom:1px solid #d3d3d3;
+	background-color: white;
+	transition: all .3s ease;
+	color: #333;
+}
+.mobile-li:active{
+	background-color:pink;
+}
+.mobile-li a{
+	width:100%;
+	text-align:center;
+	display:block;
+	text-decoration:none;
+	cursor:pointer;
+
+	font-weight:700;
+	font-size:14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding:25px 0;
+}
+
+#kontakt-content{
+	width:100%;
+}
+
+
+
+
+	
+}

@@ -1,0 +1,92 @@
+/* Slideshow container */
+.slideshow-container {
+  width: 75%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -35px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a WHITE background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(195, 195, 195, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+}
+.active, .dot:hover {
+  background-color: #505050;
+}
+
+@media screen and (max-width:1024px){/* När skärmer blir mindre än 980 gäller nedanstående*/
+
+  .slideshow-container{
+  padding-top: 65px;
+  margin: auto;
+  width: 85%;
+  }
+
+  .prev, .next{
+    margin-top: -1px;
+  }
+
+}
+
+
+@media screen and (max-width:740px){/* När skärmer blir mindre än 980 gäller nedanstående*/
+
+.slideshow-container{
+padding-top: 80px;
+margin: auto;
+width: 100%;
+}
+
+.prev, .next{
+  margin-top: -5px;
+}
+
+
+}

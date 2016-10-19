@@ -1,0 +1,21 @@
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+}
+
+
+
+
+.box {
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  background-color: white;
+}
