@@ -99,7 +99,7 @@
 
 		<div class="fadeInBlock"><?php $id =27; $p = get_page($id); echo apply_filters('the_content', $p->post_content); ?></div>
 
-		<button id="intro-btn" class="card-1-hover"> Läs mer</button><!-- Läsa mer knappen, används i js -->
+		<a href="http://localhost/t4wp/?page_id=27"><button id="intro-btn" class="card-1-hover"> Läs mer</button></a><!-- Läsa mer knappen, används i js -->
 	</div><!-- /#introduktion-content -->
 </section>
 <!-- /#introduktion-container -->
