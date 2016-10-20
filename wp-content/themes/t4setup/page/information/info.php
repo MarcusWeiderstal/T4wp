@@ -11,9 +11,6 @@
  ?>
 
 
-
-
-
 <!DOCTYPE html>
 <html >
   <head>
@@ -23,28 +20,13 @@
         <link rel="stylesheet" href="css/info.css">
         <link rel="stylesheet" href="css/t4.css">
 
-
-
   </head>
-
-
-
   <body >
 
-
-
     <header id="header-container" class="card-2">
-
-
-
-
-
-
     		    <a id="logo-container" href="http://www.t4tumba.se">Tillbaka</a>
 
-
     </header>
-
     <div id= "head-c">
     </div>
 

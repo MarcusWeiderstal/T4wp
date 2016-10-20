@@ -11,7 +11,7 @@
 <div id="front-content">
     <div id="start-container">
 	    <div id="start-wrapper">
-	        <img id="storlogovit" src="http://www.t4tumba.se/wp-content/uploads/2016/10/logovit.png"></img>
+	        <img id="storlogovit" src="http://www.localhost/t4wp/wp-content/uploads/2016/10/logovit.png"></img>
 	    </div>
     </div>
     <button id="prev" class="card-1-hover"></button><!-- Slideshowknapp, vänster -->
