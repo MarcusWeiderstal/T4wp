@@ -1,0 +1,93 @@
+
+
+
+#slideshow-container{ /* | SECTION 1 | */
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+#slideshow-container img{
+	height:100%;
+	width:100%;
+	
+}
+#front-content{
+	height:100%;
+	width:100%;
+	position:absolute;
+	z-index:1000;
+}
+#start-container{
+	height:280px;
+	width:100%;
+	position:absolute;
+	top: calc(50% - 140px);
+	text-align:center;
+}
+#start-wrapper{
+	height:100%;
+	width:700px;
+	margin:auto;
+}
+#storlogovit{ /* T4 VIT, frontpage */
+	display:block;
+	margin:auto;
+	height:150px;
+	width:235px;
+	margin-top:65px;
+}
+#starta{
+	padding:10px 30px;
+	cursor:pointer;
+	letter-spacing:2px;
+    text-transform: uppercase;
+    font-weight: 700;
+	outline:0;
+	color:white;
+	position:absolute;
+	bottom:50px;
+	left:calc(50% - 63px);
+	border:2px solid white;
+	font-family: 'Roboto', sans-serif;
+	background-color:transparent;
+	transition: all .4s ease;
+}
+#starta:hover{
+	background-color:white;
+	color:#333;
+}
+#prev{
+	height:80px;
+	width:80px;
+	border-radius:50%;
+    border:0;
+	outline:0;
+	position:absolute;
+	top:calc(50% - 40px);
+	margin-left:40px;
+	background-image: url("img/prev.png");
+	background-color:transparent;
+	cursor:pointer;
+	transition: all .3s ease;
+}
+#prev:hover{
+	background-image: url("img/prev2.png");
+}
+#next{
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	border:0;
+	outline:0;
+	position:absolute;
+	top:calc(50% - 40px);
+	right:0;
+	margin-right:40px;
+	background-image: url("img/next.png");
+	background-color:transparent;
+	cursor:pointer;
+	transition: all .3s ease;
+}
+#next:hover{
+	background-image: url("img/next2.png");
+}

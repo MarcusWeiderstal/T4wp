@@ -1,0 +1,68 @@
+body {
+  background-color: #F5F5F5;
+}
+
+
+
+#head-c {
+  background: url("klassrum.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 700px;
+}
+
+
+h1 {
+  text-align: center;
+  color:#D45492;
+  padding: 20px;
+}
+
+p {
+  line-height: 20px;
+}
+
+#krav {
+  padding-top: 100px;
+}
+
+#kurs {
+  padding-top: 100px;
+}
+
+#info {
+  padding-top: 100px;
+}
+
+
+
+#box1 {
+  width: 75%;
+  height: auto;
+  min-height: 700px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -300px;
+  margin-bottom: 50px;
+
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  background-color: white;
+
+
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media screen and (max-width:1024px){/* När skärmer blir mindre än 980 gäller nedanstående*/
+
+  #box1 {
+    width: 85%;
+  }
+
+}
+
+  @media screen and (max-width:740px){/* När skärmer blir mindre än 980 gäller nedanstående*/
