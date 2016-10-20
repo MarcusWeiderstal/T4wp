@@ -99,7 +99,10 @@
 
 		<div class="fadeInBlock"><?php $id =27; $p = get_page($id); echo apply_filters('the_content', $p->post_content); ?></div>
 
-		<button id="intro-btn" class="card-1-hover"> Läs mer</button><!-- Läsa mer knappen, används i js -->
+
+
+		<a href="http://localhost/t4wp/?page_id=27"><button id="intro-btn" class="card-1-hover"> Läs mer</button></a><!-- Läsa mer knappen, används i js -->
+
 	</div><!-- /#introduktion-content -->
 </section>
 <!-- /#introduktion-container -->
@@ -133,26 +136,6 @@ $args = array( 'category' => 2 );
    <?php endforeach;
    wp_reset_postdata();?>
 </div>
-<!---
-    <div id="nyheter-content" class="fadeInBlock">
-	    <div class="nyheter-box-container">
-		    <div class="nyheter-box-content card-1">
-			    <h3 class="nyheter-h3"> Nyhet 1 </h3>
-		    </div>
-		</div>
-		<div class="nyheter-box-container">
-		    <div class="nyheter-box-content card-1">
-			    <h3 class="nyheter-h3"> Nyhet 2 </h3>
-		    </div>
-		</div>
-		<div class="nyheter-box-container">
-		    <div class="nyheter-box-content card-1">
-			    <h3 class="nyheter-h3"> Nyhet 3</h3>
-		    </div>
-		</div>
-	</div>
-
--->
 <button id="nyheter-btn" class="card-1-hover">Fler nyheter</button><!-- Nyheter knappen, används i js -->
 </section>
 <!-- /#nyheter-container -->
@@ -161,24 +144,21 @@ $args = array( 'category' => 2 );
 <!-- #projekt-container, | SECTION 4 | -->
 <section id="projekt-container" class="card-1">
     <h2 class="fadeInBlock"> Projekt </h2>
-
-    <div id="projekt-content" class="fadeInBlock">
-	    <div id="projekt-boxS-container">
-		    <div id="storbild" class="projekt-box-content card-1">
-			    <h3 class="projekt-h3"> Tekniksida </h3>
-		    </div>
-		</div>
-		<div class="projekt-boxL-container">
-		    <div class="projekt-box-content card-1">
-			    <h3 class="projekt-h3"> Lansidan </h3>
-		    </div>
-		</div>
-		<div class="projekt-boxL-container">
-		    <div class="projekt-box-content card-1">
-			    <h3 class="projekt-h3"> T4 Tumba </h3>
-		    </div>
-		</div>
-	</div>
+<div id="projekt-content" class="fadeInBlock">
+<?php
+//kod för att fetcha projekt
+//k
+$args = array( 'category' => 3 );
+   $myposts = get_posts( $args );
+   foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+   <div class="projekt-boxL-container">
+       <div class="projekt-box-content card-1">
+         <h3 class="projekt-h3"> <a href="<?php the_permalink(); ?>"><?php the_title(); ?> </h3>
+       </div>
+  </div>
+ <?php endforeach;
+ wp_reset_postdata();?>
+ </div>
 	<a href="#"><button id="projekt-btn" class="card-1-hover"> Fler projekt</button></a><!-- Nyheter knappen, används i js -->
 </section>
 <!-- /#projekt-container -->
